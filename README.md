@@ -11,12 +11,12 @@
 To install, use `go get`:
 
 ```bash
-$ go get -d github.com/a_saiki/collection
+$ go get -d github.com/saiki/collection
 ```
 
 ## Contribution
 
-1. Fork ([https://github.com/a_saiki/collection/fork](https://github.com/a_saiki/collection/fork))
+1. Fork ([https://github.com/saiki/collection/fork](https://github.com/saiki/collection/fork))
 1. Create a feature branch
 1. Commit your changes
 1. Rebase your local changes against the master branch
@@ -26,4 +26,4 @@ $ go get -d github.com/a_saiki/collection
 
 ## Author
 
-[a_saiki](https://github.com/a_saiki)
+[saiki](https://github.com/saiki)
