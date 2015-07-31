@@ -4,11 +4,17 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/a_saiki/collection/command"
 	"github.com/codegangsta/cli"
+	"github.com/saiki/collection/command"
 )
 
-var GlobalFlags = []cli.Flag{}
+var GlobalFlags = []cli.Flag{
+	cli.StringFlag{
+		Name:  "path",
+		Value: "",
+		Usage: "store directory. default: $HOME/.collection",
+	},
+}
 
 var Commands = []cli.Command{
 	{

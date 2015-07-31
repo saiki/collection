@@ -1,7 +1,8 @@
 package command
 
+import "fmt"
 import "github.com/codegangsta/cli"
 
 func CmdList(c *cli.Context) {
-	// Write your code here
+	fmt.Println("List.")
 }
