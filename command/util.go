@@ -5,6 +5,8 @@ import (
 	"path/filepath"
 )
 
+const BUCKET_NAME string = "storage"
+
 func home() (string, error) {
 	usr, err := user.Current()
 	if err != nil {
